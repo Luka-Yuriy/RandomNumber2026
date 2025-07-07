@@ -12,16 +12,17 @@ class ViewController: UIViewController {
     @IBOutlet var minimumValueLabel: UILabel!
     @IBOutlet var maximumValueLabel: UILabel!
     @IBOutlet var randomNumberLabel: UILabel!
-    @IBOutlet var getResultButtonLabel: UIButton!
     
     // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func getResultButtonDidTapped() {
+        let minimumNumber = Int(minimumValueLabel.text ?? "") ?? 0
+        let maximunNumber = Int(maximumValueLabel.text ?? "") ?? 0
+        
+        randomNumberLabel.text = Int.random(in: minimumNumber...maximunNumber).formatted()
     }
-    
 }
 

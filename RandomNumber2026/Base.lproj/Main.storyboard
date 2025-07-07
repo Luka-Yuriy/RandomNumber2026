@@ -16,29 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="BRk-rY-GRL">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="BRk-rY-GRL">
                                 <rect key="frame" x="30" y="178" width="380" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whc-1X-bnK">
-                                        <rect key="frame" x="0.0" y="0.0" width="62.333333333333336" height="60"/>
+                                        <rect key="frame" x="0.0" y="28.666666666666657" width="95" height="31.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McQ-lh-ANU">
-                                        <rect key="frame" x="104.33333333333334" y="0.0" width="37.333333333333343" height="60"/>
+                                        <rect key="frame" x="95" y="0.0" width="95" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcH-QR-omS">
-                                        <rect key="frame" x="183.66666666666666" y="0.0" width="26.333333333333343" height="60"/>
+                                        <rect key="frame" x="190" y="28.666666666666657" width="95" height="31.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzg-n1-qqK">
-                                        <rect key="frame" x="252" y="0.0" width="128" height="60"/>
+                                        <rect key="frame" x="285" y="0.0" width="95" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -82,7 +82,6 @@
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="AVj-Lv-QIr"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="getResultButtonLabel" destination="mmu-NO-SoS" id="3Be-YG-1Yl"/>
                         <outlet property="maximumValueLabel" destination="xzg-n1-qqK" id="VBz-Su-Pp0"/>
                         <outlet property="minimumValueLabel" destination="McQ-lh-ANU" id="LvJ-Rl-VcX"/>
                         <outlet property="randomNumberLabel" destination="Uuh-wy-fgu" id="H1c-vC-GkO"/>
