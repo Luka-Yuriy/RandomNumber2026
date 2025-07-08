@@ -8,22 +8,24 @@
 import UIKit
 
 class SettingsViewController: ViewController {
-
+    // MARK: - IBOutlets
+    @IBOutlet var minimumValueTF: UITextField!
+    @IBOutlet var maximumValueTF: UITextField!
+    
+    //MARK: Propherties
+    var minimusValue: String!
+    var maximumValue: String!
+    
+    // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        minimumValueTF.text = minimusValue
+        maximumValueTF.text = maximumValue
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: IBActions
+    @IBAction func cancelButtonDidTapped() {
+        dismiss(animated: true)
     }
-    */
-
+    
 }
