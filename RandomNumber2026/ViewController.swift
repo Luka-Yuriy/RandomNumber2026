@@ -20,9 +20,9 @@ class ViewController: UIViewController {
 
     @IBAction func getResultButtonDidTapped() {
         let minimumNumber = Int(minimumValueLabel.text ?? "") ?? 0
-        let maximunNumber = Int(maximumValueLabel.text ?? "") ?? 0
+        let maximumNumber = Int(maximumValueLabel.text ?? "") ?? 0
         
-        randomNumberLabel.text = Int.random(in: minimumNumber...maximunNumber).formatted()
+        randomNumberLabel.text = Int.random(in: minimumNumber...maximumNumber).formatted()
     }
 }
 
