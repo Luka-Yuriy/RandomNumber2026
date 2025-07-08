@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         settingsVC.minimusValue = minimumValueLabel.text
         settingsVC.maximumValue = maximumValueLabel.text
     }
+
     
     // MARK: IBActions
     @IBAction func getResultButtonDidTapped() {
@@ -30,6 +31,12 @@ class ViewController: UIViewController {
         let maximumNumber = Int(maximumValueLabel.text ?? "") ?? 100
         
         randomNumberLabel.text = Int.random(in: minimumNumber...maximumNumber).formatted()
+    }
+    
+    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        guard let settingsVC = segue.source as? SettingsViewController else { return }
+        minimumValueLabel.text = settingsVC.minimumValueTF.text
+        maximumValueLabel.text = settingsVC.maximumValueTF.text
     }
 }
 
