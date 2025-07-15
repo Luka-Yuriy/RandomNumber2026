@@ -14,7 +14,7 @@
 		5AD1DB182E1C13DC00CD4B2F /* Exceptions for "RandomNumber2026" folder in "RandomNumber2026" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 5AD1DB052E1C13DA00CD4B2F /* RandomNumber2026 */;
 		};
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27DUN46W9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomNumber2026/Info.plist;
+				INFOPLIST_FILE = RandomNumber2026/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -179,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27DUN46W9J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomNumber2026/Info.plist;
+				INFOPLIST_FILE = RandomNumber2026/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

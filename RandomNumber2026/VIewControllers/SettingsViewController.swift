@@ -13,13 +13,13 @@ class SettingsViewController: ViewController {
     @IBOutlet var maximumValueTF: UITextField!
     
     //MARK: Propherties
-    var minimusValue: String!
+    var minimumValue: String!
     var maximumValue: String!
     
     // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        minimumValueTF.text = minimusValue
+        minimumValueTF.text = minimumValue
         maximumValueTF.text = maximumValue
     }
     
